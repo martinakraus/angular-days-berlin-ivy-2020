@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
     styleUrls: [ './ivy.component.scss' ],
 })
 export class IvyComponent {
-    constructor() { }
+    constructor() {
+    }
 
     lazyLoadComponent(): void {
         // ToDo Exercise 1: implement lazy loading component
