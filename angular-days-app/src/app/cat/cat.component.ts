@@ -1,18 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-cat',
-  templateUrl: './cat.component.html',
-  styleUrls: ['./cat.component.scss']
+    selector: 'app-cat',
+    templateUrl: './cat.component.html',
+    styleUrls: [ './cat.component.scss' ]
 })
-export class CatComponent implements OnInit {
-
-  @Input()
-  catId: string;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class CatComponent {
+    @Input()
+    catId: string;
 }

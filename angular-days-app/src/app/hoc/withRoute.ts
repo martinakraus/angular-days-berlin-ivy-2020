@@ -22,7 +22,7 @@ export function withRoute(inner: Type<any>) {
     @Injectable()
     class HigherOrderComponent implements OnInit {
 
-        static ɵcmp: ɵComponentDef<HigherOrderComponent>;
+        static ɵcmp: unknown;
         static ɵfac: () => HigherOrderComponent;
 
         params: any = {};

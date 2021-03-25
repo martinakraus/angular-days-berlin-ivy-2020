@@ -10,6 +10,7 @@ import { IvyComponent } from './ivy-components/ivy.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { CatComponent } from './cat/cat.component';
+
 @NgModule({
     declarations: [
         AppComponent,
@@ -25,7 +26,7 @@ import { CatComponent } from './cat/cat.component';
         BrowserAnimationsModule,
         UiModule,
     ],
-    providers: [],
     bootstrap: [ AppComponent ],
 })
-export class AppModule {}
+export class AppModule {
+}

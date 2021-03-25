@@ -1,1 +1,26 @@
-<h1>This cat has the id {{ catId }}</h1>
+<button routerLink="/" mat-button color="primary">Return</button>
+
+<mat-card class="cat-card">
+    <mat-card-header>
+        <mat-card-title>Cat Number {{ catId }}</mat-card-title>
+        <mat-card-subtitle>Orange Cat</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image
+         src="https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg"
+         alt="Photo of a Cat">
+    <mat-card-content>
+        <p>
+            The cat (Felis catus) is a domestic species of small carnivorous mammal.
+            It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to
+            distinguish it from the wild members of the family.
+            A cat can either be a house cat, a farm cat or a feral cat; the latter ranges freely and avoids human
+            contact.
+            Domestic cats are valued by humans for companionship and their ability to hunt rodents.
+            About 60 cat breeds are recognized by various cat registries.
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+    </mat-card-actions>
+</mat-card>
